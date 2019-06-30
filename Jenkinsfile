@@ -11,17 +11,17 @@ pipeline {
     stages {
         stage('clone repo and clean') { 
             steps {
-              bat "mvn clean -f Transport"
+              bat "mvn clean"
             }
         }
         stage('Test') { 
             steps {
-                bat "mvn test -f Transport"
+                bat "mvn test"
             }
         }
         stage('Deploy') { 
             steps {
-                bat "mvn package -f Transport"
+                bat "mvn package"
             }
         }
     }
