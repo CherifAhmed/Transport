@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: transport
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: hp
+Implementation-Vendor-Id: com.ahmed
+Build-Jdk: 1.8.0_192
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/transport
+Created-By: Maven Integration for Eclipse
+
